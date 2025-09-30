@@ -1,0 +1,142 @@
+{
+  "analysis_summary": {
+    "total_files_analyzed": 5,
+    "total_lines_of_code": 625,
+    "average_cyclomatic_complexity": 9.2,
+    "average_maintainability_index": 50.43,
+    "average_comment_ratio": 32.37,
+    "total_security_issues": 23,
+    "total_oop_violations": 2,
+    "overall_quality_score": 59,
+    "security_risk_level": "HIGH"
+  },
+  "quality_assessment": {
+    "code_maturity_level": "BASIC - Functional but needs significant improvement",
+    "recommendations": [
+      "Refactor 1 files with high complexity",
+      "Add documentation to 1 files",
+      "Address 23 security vulnerabilities",
+      "Fix 2 OOP violations",
+      "Replace dangerous functions with safer alternatives",
+      "Use smart pointers instead of raw pointers",
+      "Implement RAII principles",
+      "Add input validation",
+      "Use static analysis tools (clang-tidy, cppcheck)",
+      "Implement unit testing with Google Test or Catch2",
+      "Set up continuous integration",
+      "Establish code review process"
+    ]
+  },
+  "file_details": [
+    {
+      "file_path": "sample_cpp_project/include/UtilityHelper.h",
+      "lines_of_code": 77,
+      "executable_lines": 18,
+      "comment_ratio": 62.34,
+      "cyclomatic_complexity": 1,
+      "halstead_volume": 2521.61,
+      "maintainability_index": 59.67,
+      "functions_count": 0,
+      "classes_count": 3,
+      "max_nesting_depth": 1,
+      "duplicated_lines": 0,
+      "security_issues": [
+        "Potential memory management issue (double free/memory leak)"
+      ],
+      "oop_violations": [],
+      "file_quality_grade": "B"
+    },
+    {
+      "file_path": "sample_cpp_project/include/GoodExample.h",
+      "lines_of_code": 90,
+      "executable_lines": 26,
+      "comment_ratio": 55.56,
+      "cyclomatic_complexity": 3,
+      "halstead_volume": 2573.82,
+      "maintainability_index": 56.58,
+      "functions_count": 0,
+      "classes_count": 3,
+      "max_nesting_depth": 1,
+      "duplicated_lines": 0,
+      "security_issues": [
+        "Potential memory management issue (double free/memory leak)",
+        "Potential memory management issue (double free/memory leak)",
+        "Potential memory management issue (double free/memory leak)"
+      ],
+      "oop_violations": [],
+      "file_quality_grade": "F"
+    },
+    {
+      "file_path": "sample_cpp_project/src/BadExample.cpp",
+      "lines_of_code": 169,
+      "executable_lines": 123,
+      "comment_ratio": 13.61,
+      "cyclomatic_complexity": 10,
+      "halstead_volume": 5060.54,
+      "maintainability_index": 41.24,
+      "functions_count": 14,
+      "classes_count": 4,
+      "max_nesting_depth": 6,
+      "duplicated_lines": 0,
+      "security_issues": [
+        "Potential buffer overflow vulnerability",
+        "Potential buffer overflow vulnerability",
+        "Potential buffer overflow vulnerability",
+        "Potential buffer overflow vulnerability",
+        "Potential buffer overflow vulnerability",
+        "Potential buffer overflow vulnerability",
+        "Potential buffer overflow vulnerability",
+        "Potential buffer overflow vulnerability",
+        "Potential buffer overflow vulnerability",
+        "Potential buffer overflow vulnerability",
+        "Potential format string vulnerability",
+        "Potential format string vulnerability",
+        "Potential memory management issue (double free/memory leak)",
+        "Potential memory management issue (double free/memory leak)",
+        "Potential null pointer dereference",
+        "Potential null pointer dereference",
+        "Potential hardcoded credentials",
+        "Potential hardcoded credentials"
+      ],
+      "oop_violations": [
+        "raw_pointer_usage: 1 occurrences",
+        "multiple_inheritance: 1 occurrences"
+      ],
+      "file_quality_grade": "F"
+    },
+    {
+      "file_path": "sample_cpp_project/src/GoodExample.cpp",
+      "lines_of_code": 70,
+      "executable_lines": 56,
+      "comment_ratio": 4.29,
+      "cyclomatic_complexity": 9,
+      "halstead_volume": 1494.92,
+      "maintainability_index": 62.09,
+      "functions_count": 4,
+      "classes_count": 0,
+      "max_nesting_depth": 4,
+      "duplicated_lines": 6,
+      "security_issues": [],
+      "oop_violations": [],
+      "file_quality_grade": "A"
+    },
+    {
+      "file_path": "sample_cpp_project/src/UtilityHelper.cpp",
+      "lines_of_code": 219,
+      "executable_lines": 129,
+      "comment_ratio": 26.03,
+      "cyclomatic_complexity": 23,
+      "halstead_volume": 6712.04,
+      "maintainability_index": 32.59,
+      "functions_count": 13,
+      "classes_count": 3,
+      "max_nesting_depth": 5,
+      "duplicated_lines": 6,
+      "security_issues": [
+        "Potential memory management issue (double free/memory leak)"
+      ],
+      "oop_violations": [],
+      "file_quality_grade": "F"
+    }
+  ]
+}

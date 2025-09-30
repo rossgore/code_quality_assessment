@@ -1,0 +1,83 @@
+{
+  "analysis_summary": {
+    "total_files_analyzed": 3,
+    "total_lines_of_code": 250,
+    "average_cyclomatic_complexity": 15.0,
+    "average_maintainability_index": 56.55,
+    "average_comment_ratio": 14.42,
+    "total_security_issues": 5,
+    "total_oop_violations": 1,
+    "overall_quality_score": 63,
+    "security_risk_level": "HIGH"
+  },
+  "quality_assessment": {
+    "code_maturity_level": "DEVELOPING - Good practices with room for improvement",
+    "recommendations": [
+      "Refactor 2 files with high complexity",
+      "Address 5 security vulnerabilities",
+      "Fix 1 OOP violations",
+      "Implement automated testing",
+      "Set up continuous integration",
+      "Establish code review process",
+      "Use static analysis tools"
+    ]
+  },
+  "file_details": [
+    {
+      "file_path": "sample_java_project/UtilityHelper.java",
+      "lines_of_code": 74,
+      "executable_lines": 53,
+      "comment_ratio": 9.46,
+      "cyclomatic_complexity": 16,
+      "halstead_volume": 1578.52,
+      "maintainability_index": 59.3,
+      "methods_count": 6,
+      "classes_count": 2,
+      "max_nesting_depth": 5,
+      "duplicated_lines": 1,
+      "security_issues": [],
+      "oop_violations": [],
+      "file_quality_grade": "B"
+    },
+    {
+      "file_path": "sample_java_project/BadExample.java",
+      "lines_of_code": 103,
+      "executable_lines": 86,
+      "comment_ratio": 7.77,
+      "cyclomatic_complexity": 20,
+      "halstead_volume": 2861.77,
+      "maintainability_index": 49.93,
+      "methods_count": 6,
+      "classes_count": 1,
+      "max_nesting_depth": 7,
+      "duplicated_lines": 9,
+      "security_issues": [
+        "Potential SQL Injection vulnerability",
+        "Potential Path Traversal vulnerability",
+        "Potential Command Injection vulnerability",
+        "Potential hardcoded credentials",
+        "Potential hardcoded credentials"
+      ],
+      "oop_violations": [
+        "encapsulation_violations: 1 occurrences"
+      ],
+      "file_quality_grade": "F"
+    },
+    {
+      "file_path": "sample_java_project/GoodExample.java",
+      "lines_of_code": 73,
+      "executable_lines": 43,
+      "comment_ratio": 26.03,
+      "cyclomatic_complexity": 9,
+      "halstead_volume": 1805.54,
+      "maintainability_index": 60.43,
+      "methods_count": 7,
+      "classes_count": 1,
+      "max_nesting_depth": 3,
+      "duplicated_lines": 6,
+      "security_issues": [],
+      "oop_violations": [],
+      "file_quality_grade": "A"
+    }
+  ]
+}
