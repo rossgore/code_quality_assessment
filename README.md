@@ -40,7 +40,8 @@ No additional dependencies required beyond Python 3.6+. The tool uses only stand
 # Basic analysis
 python3 java_analyzer.py sample_java_project/ --output java_analysis_report.json
 
-python3 cpp_code_analyzer.py sample_cpp_project/ --output cpp_analysis_report.json```
+python3 cpp_code_analyzer.py sample_cpp_project/ --output cpp_analysis_report.json
+```
 ### Command Line Options
 
 - `directory`: Path to the Java project directory (required)
@@ -92,6 +93,7 @@ python3 from_json_to_md_report.py --java java_analysis_report.json --cpp cpp_ana
 
 python3 detailed_from_json_to_md_appendix.py --java java_analysis_report.json --cpp cpp_analysis_report.json
 ```
+
 ### Command Line Options
 
 - `--java`: java json file to generate report from
